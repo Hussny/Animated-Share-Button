@@ -9,6 +9,23 @@ body{
     justify-content: center;
 }
 
+.share-button{
+    width: 280px;
+    height: 80px;
+    background: #dfe6e9;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    transition: .3s linear;
+}
+
+.share-button:hover{
+    transform: scale(1.1);
+}
 
 
 /* phone only */
