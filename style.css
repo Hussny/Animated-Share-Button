@@ -40,7 +40,21 @@ body{
     transition: .6s linear;
     border-radius: 40px;
 }
+/* For Slide */
+.share-button:hover span{
+    transform: translateX(-100%);
+    transition-delay: .3s;
+}
 
+.share-button a{
+    flex: 1;
+    font-size: 26px;
+    color: #2d3436;
+    text-align: center;
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: .3s linear;
+}
 
 /* phone only */
 @media(max-width:599px){
